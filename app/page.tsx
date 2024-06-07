@@ -31,7 +31,7 @@ const Rating: React.FC<RatingProps> = ({ }) => {
     setCommunicationRating(rating);
   };
   return (
-    <Card className="w-[350px] h-fit outline">
+<Card className="w-[350px] h-fit outline">
       <CardHeader>
         <CardTitle className="font-poppins font-bold text-3xl">
           Leave a review
@@ -201,6 +201,7 @@ const Rating: React.FC<RatingProps> = ({ }) => {
         }}>Submit</Button>
       </CardFooter>
     </Card>
+    
   );
 };
 

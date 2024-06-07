@@ -3,6 +3,7 @@ import { Poppins } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils"
 import { Toaster } from "@/components/ui/sonner";
+import { Icon } from "@iconify/react/dist/iconify.js";
 const poppins = Poppins({ subsets: ["latin"] ,variable: "--font-poppins",weight: ['100' , '200' , '300' , '400' , '500' , '600' , '700' , '800' , '900']});
 
 export const metadata: Metadata = {
@@ -14,10 +15,16 @@ export default function RootLayout({ children, }: Readonly<{ children: React.Rea
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={cn(
-          "max-w-screen-lg h-auto py-12 mx-auto flex justify-center px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 2xl:px-20",
+          "",
           poppins.variable
-        )}>{children}
+        )}>
+          <div className="max-w-screen-lg h-auto py-12 mx-auto flex justify-center px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 2xl:px-20">
+          {children}
+            </div>
         <Toaster />
+        <div className="bottom-0 max-w-screen bg-slate-200 text-center inline-flex w-full justify-center">
+    Made with&nbsp;<Icon icon="mingcute:love-fill" fontSize={30} className="text-red-500" />&nbsp;by <a href="https://vivekkum-ar.github.io" className="text-blue-500 font-semibold">&nbsp;Vivek Kumar </a>
+  </div>
         </body>
     </html>
   );
