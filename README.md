@@ -1,4 +1,3 @@
-
 Sure, here's a brief GitHub README template for your feedback component. I've included placeholders for screenshots:
 
 ---
@@ -20,12 +19,19 @@ This feedback component is designed for Ayuvya Ayurveda to collect user feedback
 
 ## Screenshots
 
+![1717770676743](image/README/1717770676743.png)
+
+![1717770681638](image/README/1717770681638.png)![1717770698643](image/README/1717770698643.png)
+
+![1717770707865](image/README/1717770707865.png)
+
+![1717770719988](image/README/1717770719988.png)
 
 ## Installation
 
 To use this feedback component in your project, follow these steps:
 
-1. Clone the repository: `git clone [repository_url]`
+1. Clone the repository: `git clone https://github.com/vivekkum-ar/Assignment-ayuvya.git`
 2. Install dependencies: `npm install`
 3. Run the development server: `npm start`
 
@@ -48,14 +54,10 @@ function App() {
 export default App;
 ```
 
-## Contributing
-
-Contributions are welcome! If you'd like to contribute to this project, please fork the repository and submit a pull request.
-
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-Feel free to add more sections or details as needed. Let me know if you need further assistance!
+Thanks for viewing !
