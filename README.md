@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+Sure, here's a brief GitHub README template for your feedback component. I've included placeholders for screenshots:
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Ayuvya Ayurveda Feedback Component
+
+## Overview
+
+This feedback component is designed for Ayuvya Ayurveda to collect user feedback on safety, communication, and overall experience. Users can rate services, provide specific praises, and leave additional comments. Built with React and styled with Tailwind CSS.
+
+## Features
+
+- Rate safety and communication.
+- Recommend services with a simple click.
+- Select specific aspects to praise.
+- Leave additional comments.
+- Validate user inputs before submission.
+- Display feedback as toast notifications.
+
+## Screenshots
+
+
+## Installation
+
+To use this feedback component in your project, follow these steps:
+
+1. Clone the repository: `git clone [repository_url]`
+2. Install dependencies: `npm install`
+3. Run the development server: `npm start`
+
+## Usage
+
+1. Import the `Rating` component into your project.
+2. Place the component where you want to collect feedback.
+
+```jsx
+import Rating from 'path/to/Rating';
+
+function App() {
+  return (
+    <div className="App">
+      <Rating />
+    </div>
+  );
+}
+
+export default App;
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Contributing
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Contributions are welcome! If you'd like to contribute to this project, please fork the repository and submit a pull request.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## License
 
-## Learn More
+This project is licensed under the [MIT License](LICENSE).
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Feel free to add more sections or details as needed. Let me know if you need further assistance!

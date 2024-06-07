@@ -14,7 +14,7 @@ export default function RootLayout({ children, }: Readonly<{ children: React.Rea
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={cn(
-          "min-h-screen bg-background font-poppins antialiased",
+          "max-w-screen-lg h-auto py-12 mx-auto flex justify-center px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 2xl:px-20",
           poppins.variable
         )}>{children}
         <Toaster />
